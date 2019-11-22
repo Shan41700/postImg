@@ -1,0 +1,38 @@
+/* 2nd typographic hierarchy*/
+
+:root{
+    --display-font:'Staatliches', cursive;
+    --text-font:'Courier New';
+    --cap-font:'Share Tech Mono';
+}
+    
+h1{font-family: var(--display-font);}
+    
+a{
+    font-family: var(--display-font);
+    font-size:1.5em;
+}
+    
+#login a{font-size:1em;}
+    
+button{
+    font-family: var(--display-font);
+    font-size:1.2em;
+}
+    
+.post .text{
+    font-family:var(--text-font);
+    font-size:1.5em;
+}
+    
+.post .author{
+    font-family:var(--cap-font);
+    font-size:1.2em;
+    
+}
+    
+.post .date{
+    font-family:var(--cap-font);
+    font-size:.5em;
+    font-weight: thin;
+}

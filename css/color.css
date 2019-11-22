@@ -1,0 +1,35 @@
+
+#title{
+    color: var(--accent);
+    background-color: var(--main-color);
+        }
+
+button{ background-color: var(--complement);}
+
+a{color:var(--accent);}
+
+#profile{background-color: var(--main-color);}
+
+#login{background-color: var(--main-color);}
+
+/*color 1*/
+:root {
+    --complement: #97C1C9;
+    --main-color:#F4F4F4;
+    --accent:#85B6BF;
+}
+
+
+/*color 2*/
+    :root{
+        --main-color:#FAEDE4;
+        --complement:#CCA78D;
+        --accent:#C7A48E;
+    }
+        
+/*color 3*/
+    :root{
+        --main-color:#D6CEE0;
+        --complement:#9D8EAF;
+        --accent:#000000;
+    }
